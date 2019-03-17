@@ -1,0 +1,242 @@
+.container {
+  max-width: 80%;
+  height: 115vh;
+  margin: 0 auto;
+  padding-top: 2%; }
+  @media screen and (max-width: 1350px) {
+    .container {
+      height: 110vh; } }
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding-top: 0%; } }
+  .container .boxes {
+    position: relative;
+    height: 80%;
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; }
+    @media screen and (max-width: 768px) {
+      .container .boxes {
+        display: block; } }
+  .container .box {
+    flex: 50%; }
+  .container .banner {
+    position: relative;
+    bottom: 35px;
+    right: -182px;
+    font-size: 4.5vw;
+    font-weight: 1000;
+    line-height: .4em;
+    align-content: flex-end;
+    z-index: 1; }
+    .container .banner .snicker-1st {
+      color: #b9000a; }
+    @media screen and (max-width: 1350px) {
+      .container .banner {
+        font-size: 0vw; } }
+    .container .banner .snicker-last {
+      color: white; }
+  .container .bannerRight {
+    font-size: 0vw; }
+    @media screen and (max-width: 1350px) {
+      .container .bannerRight {
+        font-size: 1.5vw;
+        line-height: .6em;
+        padding: 0% 0% 0% 48%; }
+        .container .bannerRight .the {
+          color: #b9000a;
+          font-size: 2.2vw; }
+        .container .bannerRight .snicker-1st {
+          color: #b9000a; } }
+    @media screen and (max-width: 768px) {
+      .container .bannerRight {
+        font-size: 1.6vw;
+        line-height: 1em;
+        padding: 0% 0% 0% 60%; }
+        .container .bannerRight .the {
+          color: #b9000a;
+          font-size: 1.6vw; }
+        .container .bannerRight .snicker-1st {
+          color: #b9000a; } }
+    @media screen and (max-width: 414px) {
+      .container .bannerRight {
+        font-size: 4vw;
+        line-height: .8em;
+        padding: 0% 0% 0% 48%; }
+        .container .bannerRight .the {
+          color: #b9000a;
+          font-size: 3.8vw; }
+        .container .bannerRight .snicker-1st {
+          color: #b9000a; } }
+    @media screen and (max-width: 375px) {
+      .container .bannerRight {
+        font-size: 4.5vw;
+        line-height: .7em;
+        padding: 0% 0% 0% 40%; }
+        .container .bannerRight .the {
+          color: #b9000a;
+          font-size: 5vw; }
+        .container .bannerRight .snicker-1st {
+          color: #b9000a; } }
+  .container .left {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%; }
+    .container .left .logo {
+      max-height: 130px;
+      max-width: 130px;
+      padding: 5% 0 0 8%; }
+    .container .left .inputBox {
+      padding: 10px 120px 10px 10px;
+      display: flex;
+      margin: 0 auto; }
+    .container .left .inputButton {
+      display: flex;
+      margin: 0 auto;
+      background-color: #b9000a;
+      border: none;
+      color: white;
+      padding: 10px 90px 10px 90px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      cursor: pointer;
+      text-align: center; }
+    .container .left .copyRight {
+      position: absolute;
+      bottom: 0%;
+      left: 7%;
+      font-size: 13px;
+      font-weight: 600; }
+      @media screen and (max-width: 1350px) {
+        .container .left .copyRight {
+          font-size: 13px;
+          bottom: 0%; } }
+    .container .left .form {
+      padding-top: 0%;
+      margin: 0% auto; }
+      @media screen and (max-width: 1350px) {
+        .container .left .form {
+          padding-top: 10%; } }
+      @media screen and (max-width: 1280px) {
+        .container .left .form {
+          padding-top: 10%; } }
+      @media screen and (max-width: 768px) {
+        .container .left .form {
+          padding-top: 10%; } }
+      @media screen and (max-width: 414px) {
+        .container .left .form {
+          padding-top: 20%; } }
+      @media screen and (max-width: 320px) {
+        .container .left .form {
+          padding-top: 10%; } }
+  .container .right {
+    position: relative;
+    background-color: #b9000a;
+    height: 100%; }
+    .container .right .iphone-mock {
+      display: flex;
+      margin: 0 auto;
+      padding-top: 15%;
+      height: 420px; }
+      @media screen and (max-width: 1350px) {
+        .container .right .iphone-mock {
+          margin: 0 auto;
+          padding-top: 10%;
+          height: 440px; } }
+      @media screen and (max-width: 1280px) {
+        .container .right .iphone-mock {
+          margin: 0 auto;
+          padding-top: 12%;
+          height: 440px; } }
+      @media screen and (max-width: 768px) {
+        .container .right .iphone-mock {
+          margin: 0 auto;
+          padding-top: 10%;
+          height: 480px; } }
+      @media screen and (max-width: 414px) {
+        .container .right .iphone-mock {
+          margin: 0 auto;
+          padding-top: 20%;
+          height: 480px; } }
+      @media screen and (max-width: 375px) {
+        .container .right .iphone-mock {
+          margin: 0% auto;
+          padding-top: 20%;
+          height: 500px; } }
+      @media screen and (max-width: 320px) {
+        .container .right .iphone-mock {
+          margin: 0% auto;
+          padding-top: 20%;
+          height: 400px; } }
+    .container .right .social-buttons {
+      position: absolute;
+      bottom: 3%;
+      right: 6%;
+      font-size: 11px;
+      color: white; }
+      .container .right .social-buttons p {
+        padding-left: 10px; }
+      .container .right .social-buttons .socialButton {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 15px;
+        width: 15px; }
+      @media screen and (max-width: 1280px) {
+        .container .right .social-buttons {
+          position: absolute;
+          bottom: 2%;
+          right: 1%;
+          font-size: 11px;
+          color: white; }
+          .container .right .social-buttons p {
+            padding-left: 8px; }
+          .container .right .social-buttons .socialButton {
+            padding-left: 8px;
+            padding-right: 10px;
+            height: 15px;
+            width: 15px; } }
+      @media screen and (max-width: 414px) {
+        .container .right .social-buttons {
+          position: absolute;
+          bottom: 2%;
+          right: 5%;
+          font-size: 11px;
+          color: white; }
+          .container .right .social-buttons p {
+            padding-left: 8px; }
+          .container .right .social-buttons .socialButton {
+            padding-left: 8px;
+            padding-right: 10px;
+            height: 15px;
+            width: 15px; } }
+      @media screen and (max-width: 768px) {
+        .container .right .social-buttons {
+          position: absolute;
+          top: 2%;
+          right: 2%;
+          font-size: 11px;
+          color: white; }
+          .container .right .social-buttons p {
+            padding-left: 8px; }
+          .container .right .social-buttons .socialButton {
+            padding-left: 8px;
+            padding-right: 10px;
+            height: 15px;
+            width: 15px; } }
+      @media screen and (max-width: 375px) {
+        .container .right .social-buttons {
+          position: absolute;
+          top: 2%;
+          right: 6%;
+          font-size: 11px;
+          color: white; }
+          .container .right .social-buttons p {
+            padding-left: 8px; }
+          .container .right .social-buttons .socialButton {
+            padding-left: 8px;
+            padding-right: 10px;
+            height: 15px;
+            width: 15px; } }

@@ -1,0 +1,306 @@
+$break-smallest: 375px;
+$break-small: 768px;
+$break-mediumToSmall: 1080px; 
+$break-medium: 1280px;
+$break-largest: 1350px;
+
+.container {
+  max-width: 80%;
+  height: 115vh;
+  margin: 0 auto;
+  padding-top: 2%;
+  @media screen and (max-width: $break-largest) {
+    height: 110vh;
+  }
+ 
+  @media screen and (max-width: $break-small) {
+    max-width: 100%;
+    padding-top: 0%;
+  }
+  .boxes{
+    position: relative;
+    height: 80%;
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    @media screen and (max-width: $break-small) {
+      display: block;
+    }
+  }
+  .box{
+    flex: 50%;
+  }
+  .banner {
+    position: relative;
+    bottom: 35px;
+    right: -182px;
+    font-size: 4.5vw;
+    font-weight: 1000;
+    line-height: .4em;
+    align-content: flex-end;
+    // width:260px;
+    z-index: 1;
+    .snicker-1st{
+      color: #b9000a;
+    }
+    @media screen and (max-width: $break-largest) {
+      
+      font-size: 0vw;
+    }
+    .snicker-last{
+      color: white;
+    }
+  }
+  .bannerRight {
+    font-size: 0vw;
+    @media screen and (max-width: $break-largest) {
+      .the{
+        color: #b9000a;
+        font-size: 2.2vw;
+      }
+      .snicker-1st{
+        color: #b9000a;
+      }
+      font-size: 1.5vw;
+      line-height: .6em;
+      padding: 0% 0% 0% 48%;
+    }
+    // @media screen and (max-width: $break-medium) {
+    //   .the{
+    //     color: #b9000a;
+    //     font-size: 1.2vw;
+    //   }
+    //   .snicker-1st{
+    //     color: #b9000a;
+    //   }
+    //   font-size: 1.2vw;
+    //   line-height: 1em;
+    //   padding: 0% 0% 0% 60%;
+    // }
+    @media screen and (max-width: $break-small) {
+      .the{
+        color: #b9000a;
+        font-size: 1.6vw;
+      }
+      .snicker-1st{
+        color: #b9000a;
+      }
+      font-size: 1.6vw;
+      line-height: 1em;
+      padding: 0% 0% 0% 60%;
+    }
+    @media screen and (max-width: 414px) {
+      .the{
+        color: #b9000a;
+        font-size: 3.8vw;
+      }
+      .snicker-1st{
+        color: #b9000a;
+      }
+      font-size: 4vw;
+      line-height: .8em;
+      padding: 0% 0% 0% 48%;
+    }
+    @media screen and (max-width: $break-smallest) {
+      .the{
+        color: #b9000a;
+        font-size: 5vw;
+      }
+      .snicker-1st{
+        color: #b9000a;
+      }
+      font-size: 4.5vw;
+      line-height: .7em;
+      padding: 0% 0% 0% 40%;
+    }
+  }
+  .left {
+    position: relative;
+    .logo {
+      max-height: 130px;
+      max-width: 130px;
+      padding: 5% 0 0 8%;
+    }
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    .inputBox{
+      padding: 10px 120px 10px 10px;
+      display: flex;
+      margin: 0 auto;
+    }
+    .inputButton{
+      display: flex;
+      margin: 0 auto;
+      background-color: #b9000a;
+      border: none;
+      color: white;
+      padding: 10px 90px 10px 90px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .copyRight{
+      position: absolute;
+      bottom: 0%;
+      left: 7%;
+      font-size: 13px;
+      font-weight: 600;
+      @media screen and (max-width: $break-largest) {
+        font-size: 13px;
+        bottom: 0%;
+      }
+    }
+    .form{
+      padding-top: 0%;
+      margin: 0% auto;
+      @media screen and (max-width: $break-largest) {
+        padding-top: 10%;
+      }
+      @media screen and (max-width: $break-medium) {
+        padding-top: 10%;
+      }
+      @media screen and (max-width: $break-small) {
+        padding-top: 10%;
+      }
+     
+      @media screen and (max-width: 414px) {
+        padding-top: 20%;
+      }
+      @media screen and (max-width: 320px) {
+        padding-top: 10%;
+      }
+    }
+  }
+  .right {
+    position: relative;
+    background-color: #b9000a;
+    height: 100%;
+    .iphone-mock{
+      display: flex;
+      margin: 0 auto;
+      padding-top: 15%;
+      height: 420px;
+      @media screen and (max-width: $break-largest) {
+        margin: 0 auto;
+        padding-top: 10%;
+        height: 440px;
+      }
+      @media screen and (max-width: $break-medium) {
+        margin: 0 auto;
+        padding-top: 12%;
+        height: 440px;
+      }
+ 
+      @media screen and (max-width: $break-small) {
+        margin: 0 auto;
+        padding-top: 10%;
+        height: 480px;
+      }
+      @media screen and (max-width: 414px) {
+        margin: 0 auto;
+        padding-top: 20%;
+        height: 480px;
+      }
+ 
+      @media screen and (max-width: $break-smallest) {
+        margin: 0% auto;
+        padding-top: 20%;
+        height: 500px;
+      }
+      @media screen and (max-width: 320px) {
+        margin: 0% auto;
+        padding-top: 20%;
+        height: 400px;
+      }
+   
+    }
+    .social-buttons{
+      position: absolute;
+      bottom: 3%;
+      right: 6%;
+      font-size: 11px;
+      color: white;
+      p{
+        padding-left: 10px;  
+      }
+      .socialButton{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 15px;
+        width: 15px;
+      }
+      @media screen and (max-width: $break-medium) {
+      
+        position: absolute;
+        bottom: 2%;
+        right: 1%;
+        font-size: 11px;
+        color: white;
+        p{
+          padding-left: 8px;  
+        }
+        .socialButton{
+          padding-left: 8px;
+          padding-right: 10px;
+          height: 15px;
+          width: 15px;
+        }
+      }
+      @media screen and (max-width: 414px) {
+      
+        position: absolute;
+        bottom: 2%;
+        right: 5%;
+        font-size: 11px;
+        color: white;
+        p{
+          padding-left: 8px;  
+        }
+        .socialButton{
+          padding-left: 8px;
+          padding-right: 10px;
+          height: 15px;
+          width: 15px;
+        }
+      }
+      @media screen and (max-width: $break-small) {
+      
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        font-size: 11px;
+        color: white;
+        p{
+          padding-left: 8px;  
+        }
+        .socialButton{
+          padding-left: 8px;
+          padding-right: 10px;
+          height: 15px;
+          width: 15px;
+        }
+      }
+      
+      @media screen and (max-width: $break-smallest) {
+        position: absolute;
+        top: 2%;
+        right: 6%;
+        font-size: 11px;
+        color: white;
+        p{
+          padding-left: 8px;  
+        }
+        .socialButton{
+          padding-left: 8px;
+          padding-right: 10px;
+          height: 15px;
+          width: 15px;
+        }
+      }
+    }
+  } 
+}
+ 
